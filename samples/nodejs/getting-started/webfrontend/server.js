@@ -7,7 +7,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/api', function (req, res) {
-    res.send('Hello from webfrontend');
+    res.send('Hello from webfrontend running in Azure !');
 });
 
 var port = process.env.PORT || 80;
